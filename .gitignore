@@ -1,0 +1,5 @@
+.vercel
+.env.local
+.imgtools
+node_modules
+_push_log.txt

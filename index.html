@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#141610">
+    <title>The IndieRoll - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="brand-wrapper">
+                <img class="brand-mark" src="images/indieroll-mark.svg" width="56" height="56" alt="The IndieRoll camera logo">
+                <div class="brand-text">
+                    <h1>The IndieRoll</h1>
+                    <p class="brand-tagline">Movie Guide</p>
+                    <span class="brand-rule" aria-hidden="true"></span>
+                </div>
+            </a>
+            <button type="button" class="menu-toggle" id="menu-toggle" aria-controls="site-nav" aria-expanded="false">
+                <span class="menu-toggle-bars" aria-hidden="true"></span>
+                <span class="visually-hidden">Open menu</span>
+            </button>
+            <nav id="site-nav" class="site-nav" aria-label="Global Site Navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="btn-nav active" aria-current="page">Home</a></li>
+                    <li><a href="review.html" class="btn-nav">Write a Review</a></li>
+                    <li><a href="about.html" class="btn-nav">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol class="breadcrumb-list">
+                <li><a href="index.html" aria-current="page">Home</a></li>
+            </ol>
+        </nav>
+
+        <section class="hero-section" aria-labelledby="discover-heading">
+            <h2 id="discover-heading">Discover Your Next Favourite Film</h2>
+            <p>Browse our curated catalogue and filter by genre to find something worth watching tonight.</p>
+        </section>
+
+        <section class="filter-section" aria-label="Movie Genre Dynamic Filters">
+            <p class="filter-heading" id="filter-label">Filter by genre</p>
+            <div class="nav-menu" role="group" aria-labelledby="filter-label">
+                <button type="button" class="btn-nav active" onclick="filterGenre('All', this)">All</button>
+                <button type="button" class="btn-nav" onclick="filterGenre('Action', this)">Action</button>
+                <button type="button" class="btn-nav" onclick="filterGenre('Comedy', this)">Comedy</button>
+                <button type="button" class="btn-nav" onclick="filterGenre('Drama', this)">Drama</button>
+                <button type="button" class="btn-nav" onclick="filterGenre('Science Fiction', this)">Science Fiction</button>
+            </div>
+        </section>
+
+        <section aria-label="Movie Catalog Grid">
+            <div class="movie-grid" id="catalog-target">
+                <p class="catalog-status" role="status">Loading movies...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The IndieRoll. Built for CM1605 Web Technology Coursework.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

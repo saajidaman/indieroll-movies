@@ -1,0 +1,15 @@
+Movie card images are royalty-free photographs from Unsplash (https://unsplash.com).
+They replace earlier illustrative artwork so posters look like real photography.
+
+Suggested Harvard-style credit examples (Accessed: 17 July 2026):
+- Unsplash (n.d.) Space / cinema / piano / car stock photographs. Available at: https://unsplash.com (Accessed: 17 July 2026).
+
+Filenames map to Unsplash search themes:
+- nebula-whispers.jpg – space nebula
+- midnight-sonata.jpg – piano
+- cosmic-chuckles.jpg – cinema audience
+- quantum-breach.jpg – cinema screen
+- stardust-dreams.jpg – night sky
+- chrono-velocity.jpg – sports car
+- astral-paradox.jpg – Earth from space
+- laughter-orbit.jpg – film clapperboard

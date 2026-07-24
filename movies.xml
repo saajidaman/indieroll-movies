@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <movie>
+        <title>Nebula Whispers</title>
+        <genre>Science Fiction</genre>
+        <year>2025</year>
+        <rating>4.9</rating>
+        <poster>images/nebula-whispers.jpg</poster>
+        <alt>Poster image for Nebula Whispers showing a colourful space nebula</alt>
+    </movie>
+    <movie>
+        <title>The Midnight Sonata</title>
+        <genre>Drama</genre>
+        <year>2023</year>
+        <rating>4.5</rating>
+        <poster>images/midnight-sonata.jpg</poster>
+        <alt>Poster image for The Midnight Sonata showing a grand piano</alt>
+    </movie>
+    <movie>
+        <title>Cosmic Chuckles</title>
+        <genre>Comedy</genre>
+        <year>2026</year>
+        <rating>4.2</rating>
+        <poster>images/cosmic-chuckles.jpg</poster>
+        <alt>Poster image for Cosmic Chuckles showing a cinema audience watching a screen</alt>
+    </movie>
+    <movie>
+        <title>Quantum Breach</title>
+        <genre>Action</genre>
+        <year>2024</year>
+        <rating>4.7</rating>
+        <poster>images/quantum-breach.jpg</poster>
+        <alt>Poster image for Quantum Breach showing empty cinema seats facing a bright screen</alt>
+    </movie>
+    <movie>
+        <title>Stardust Dreams</title>
+        <genre>Drama</genre>
+        <year>2022</year>
+        <rating>4.8</rating>
+        <poster>images/stardust-dreams.jpg</poster>
+        <alt>Poster image for Stardust Dreams showing a starry night sky</alt>
+    </movie>
+    <movie>
+        <title>Chrono Velocity</title>
+        <genre>Action</genre>
+        <year>2025</year>
+        <rating>4.4</rating>
+        <poster>images/chrono-velocity.jpg</poster>
+        <alt>Poster image for Chrono Velocity showing a fast sports car</alt>
+    </movie>
+    <movie>
+        <title>The Astral Paradox</title>
+        <genre>Science Fiction</genre>
+        <year>2026</year>
+        <rating>4.6</rating>
+        <poster>images/astral-paradox.jpg</poster>
+        <alt>Poster image for The Astral Paradox showing Earth from space</alt>
+    </movie>
+    <movie>
+        <title>Laughter in Orbit</title>
+        <genre>Comedy</genre>
+        <year>2024</year>
+        <rating>4.1</rating>
+        <poster>images/laughter-orbit.jpg</poster>
+        <alt>Poster image for Laughter in Orbit showing a film clapperboard on a movie set</alt>
+    </movie>
+</catalog>

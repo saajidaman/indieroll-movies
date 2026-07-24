@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">The IndieRoll logo</title>
+  <defs>
+    <linearGradient id="ringGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8d4a8"/>
+      <stop offset="55%" stop-color="#8a9178"/>
+      <stop offset="100%" stop-color="#6b7454"/>
+    </linearGradient>
+    <linearGradient id="lensFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dfe8c8"/>
+      <stop offset="100%" stop-color="#8a9178"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="#2a2e22"/>
+  <circle cx="60" cy="60" r="54" fill="none" stroke="url(#ringGlow)" stroke-width="4.5"/>
+  <circle cx="60" cy="60" r="47" fill="#555D42" opacity="0.45"/>
+  <g fill="none" stroke="#f3f2ec" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="27" y="41" width="50" height="38" rx="4"/>
+    <path d="M77 49 L98 40 L98 80 L77 71 Z"/>
+    <rect x="35" y="49" width="24" height="18" rx="2" fill="url(#lensFill)" stroke="#e8edc8" stroke-width="3"/>
+  </g>
+  <polygon points="42,53 42,63 52,58" fill="#c8d4a8"/>
+  <circle cx="60" cy="60" r="54" fill="none" stroke="#f3f2ec" stroke-width="1.5" opacity="0.25"/>
+</svg>

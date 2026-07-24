@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#141610">
+    <title>Submit Movie Review - The IndieRoll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to form entry</a>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="brand-wrapper">
+                <img class="brand-mark" src="images/indieroll-mark.svg" width="56" height="56" alt="The IndieRoll camera logo">
+                <div class="brand-text">
+                    <h1>The IndieRoll</h1>
+                    <p class="brand-tagline">Movie Guide</p>
+                    <span class="brand-rule" aria-hidden="true"></span>
+                </div>
+            </a>
+            <button type="button" class="menu-toggle" id="menu-toggle" aria-controls="site-nav" aria-expanded="false">
+                <span class="menu-toggle-bars" aria-hidden="true"></span>
+                <span class="visually-hidden">Open menu</span>
+            </button>
+            <nav id="site-nav" class="site-nav" aria-label="Global Site Navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="btn-nav">Home</a></li>
+                    <li><a href="review.html" class="btn-nav active" aria-current="page">Write a Review</a></li>
+                    <li><a href="about.html" class="btn-nav">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol class="breadcrumb-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="review.html" aria-current="page">Write a Review</a></li>
+            </ol>
+        </nav>
+
+        <section class="hero-section" aria-labelledby="form-heading">
+            <h2 id="form-heading">Share Your Movie Review</h2>
+            <p>Tell us what you thought. Fields marked with * are required and checked with JavaScript when you submit.</p>
+        </section>
+
+        <div class="form-wrapper">
+            <div id="feedback-log" class="feedback-box" aria-live="polite"></div>
+
+            <form id="reviewForm" novalidate>
+
+                <div class="form-group">
+                    <label for="fullName">Full Name *</label>
+                    <input type="text" id="fullName" name="fullName" class="input-control" placeholder="e.g. Jane Doe" autocomplete="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="emailAddr">Email Address *</label>
+                    <input type="text" id="emailAddr" name="emailAddr" class="input-control" placeholder="e.g. jane@example.com" autocomplete="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="movieSelect">Select Movie *</label>
+                    <select id="movieSelect" name="movieSelect" class="input-control">
+                        <option value="">-- Choose a movie --</option>
+                        <option value="Nebula Whispers">Nebula Whispers</option>
+                        <option value="The Midnight Sonata">The Midnight Sonata</option>
+                        <option value="Cosmic Chuckles">Cosmic Chuckles</option>
+                        <option value="Quantum Breach">Quantum Breach</option>
+                        <option value="Stardust Dreams">Stardust Dreams</option>
+                        <option value="Chrono Velocity">Chrono Velocity</option>
+                        <option value="The Astral Paradox">The Astral Paradox</option>
+                        <option value="Laughter in Orbit">Laughter in Orbit</option>
+                    </select>
+                </div>
+
+                <fieldset class="interactive-fieldset">
+                    <legend>Would you recommend this film?</legend>
+                    <div class="inline-options">
+                        <label>
+                            <input type="radio" name="userRecommend" value="Yes" checked> Yes
+                        </label>
+                        <label>
+                            <input type="radio" name="userRecommend" value="No"> No
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="interactive-fieldset">
+                    <legend>What stood out? (optional)</legend>
+                    <div class="inline-options">
+                        <label><input type="checkbox" name="strengths" value="Acting"> Acting</label>
+                        <label><input type="checkbox" name="strengths" value="Visuals"> Visuals</label>
+                        <label><input type="checkbox" name="strengths" value="Sound"> Sound &amp; Score</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="reviewText">Your Review</label>
+                    <span class="field-hint" id="review-hint">Optional — share a few thoughts about the story, acting, or production.</span>
+                    <textarea id="reviewText" name="reviewText" class="input-control" aria-describedby="review-hint" placeholder="Write your review here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Review</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The IndieRoll. Built for CM1605 Web Technology Coursework.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
